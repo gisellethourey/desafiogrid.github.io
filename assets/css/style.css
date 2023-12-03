@@ -1,0 +1,235 @@
+*{
+margin: 0;
+padding: 0;
+list-style: none;
+text-decoration: none;
+border: none;
+outline: none;
+}
+body{
+background-color: rgb(243, 193, 210);
+}
+.grid-container{
+display: grid;
+grid-template-areas:
+"nav nav nav nav"
+"menu main main main"
+"footer footer footer footer";
+gap: 10px;
+}
+/*header*/
+nav{
+display: grid;
+grid-area:nav;
+background-color: rgb(219, 92, 219);
+justify-content: center;
+align-items: center;
+height: 300%;
+}
+nav h1{
+color:rgb(216, 221, 221);
+font-weight: bold;
+}
+/*aside-menu*/
+menu{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+font-size: large;
+margin-top: 49%;
+}
+.title{
+color:rgb(143, 18, 143);
+margin-bottom:20%;
+margin-left: 5%;
+}
+.first-paragraph{
+margin-bottom:10%;
+margin-left: 15%;
+}
+.second-paragraph{
+margin-bottom:10%;
+margin-left: 15%;
+}
+.third-paragraph{
+margin-bottom:10%;
+margin-left: 15%;
+}
+.fourth-paragraph{
+margin-bottom:10%;
+margin-left: 15%;
+}
+/*main*/
+main{
+display:grid;
+grid-area:main;
+grid-template-columns: 1fr 1fr 1fr;
+margin-top:5%;
+gap: 1%;
+margin-bottom: auto;
+}
+/*perfume rosa*/
+.card-rosa{
+background-color: white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center; 
+width: 590px;
+height: 450px; 
+}
+.btn-a{
+width: 590px;
+height: 40px;
+background-color: rgb(241, 168, 181);
+display:flex;
+justify-content: center;
+align-items: center; 
+color:rgb(94, 93, 93);
+font-weight: bold;
+}
+.titulo-rosa{
+color:blueviolet;
+}
+.card-rosa h3{
+color:blueviolet;  
+}
+.img-rosa{
+background-color:white;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+width: 520px;
+height: 450px;
+margin-top: 10px;   
+}
+/*perfume violeta*/
+.card-violeta{
+background-color: white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center; 
+width: 590px;
+height: 450px; 
+margin-top: 40px;
+}
+.btn-b{
+width: 590px;
+height: 40px;
+background-color: rgb(241, 168, 181);
+display:flex;
+justify-content: center;
+align-items: center; 
+color:rgb(94, 93, 93);
+font-weight: bold;
+}
+.titulo-violeta{
+color:blueviolet;
+}
+.card-violeta h3{
+color:blueviolet;  
+}
+.img-violeta{
+background-color:white;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+width: auto;
+height: 350px;
+margin-top: 10px;   
+margin-bottom:10px;
+}
+/*paleta de sombras*/
+.card-sombras{
+background-color: white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center; 
+width: 590px;
+height: 450px; 
+}
+.btn-c{
+width: 590px;
+height: 40px;
+background-color: rgb(241, 168, 181);
+display:flex;
+justify-content: center;
+align-items: center; 
+color:rgb(94, 93, 93);
+font-weight: bold;
+}
+.titulo-sombras{
+color:blueviolet;
+}
+.card-sombras h3{
+color:blueviolet;  
+}
+        
+.img-sombras{
+background-color:white;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+width: auto;
+height: 350px;
+margin-top: 10px;   
+margin-bottom:10px;
+}
+/*labiales*/
+.card-labiales{
+background-color: white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center; 
+width: 590px;
+height: 450px; 
+}
+.btn-d{
+width: 590px;
+height: 40px;
+background-color: rgb(241, 168, 181);
+display:flex;
+justify-content: center;
+align-items: center; 
+color:rgb(94, 93, 93);
+font-weight: bold;
+}
+.titulo-labiales{
+color:blueviolet;
+}
+.card-labiales h3{
+color:blueviolet;  
+}
+.img-labiales{
+background-color:white;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+width: 500px;
+height: 450px;
+margin-top: 10px;   
+}
+/*footer*/
+footer{
+display: grid;
+grid-area:footer;
+background-color: rgb(219, 92, 219) ;
+color:rgb(209, 203, 203);
+justify-content: center ;
+align-items: center;
+height: 3vw;
+}
+
+
+
+
+
+
